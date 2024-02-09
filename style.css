@@ -1,0 +1,37 @@
+/* Here we will be styling our game with the css*/
+
+body {   /* here we are setting the whole body of our index.html*/
+    background-color: aqua;
+}
+#text {  /*here we are setting the index.html whose id is "text" */
+    background-color: blue;
+    color: black;
+    padding: 10px;
+}
+#game {   /*here we are setting the index.html whose id is "game" */
+    max-width: 500px;
+    max-height: 400px;
+    background-color: crimson;
+    color:black;
+    padding: 10px;
+    margin: auto;
+
+}
+#controls {   /*here we are setting the index.html whose id is "controls" */
+    border: 1px solid black;
+    padding: 5px;
+}
+#stats {    /*here we are setting the index.html whose id is "stats" */
+    border: 1px solid black;
+    padding: 5 px;
+}
+#monsterstats {  /*here we are setting the index.html whose id is "monsterstats" */
+    border: 1px solid black;
+    background-color: aqua;
+    color: brown;
+    padding: 5 px;
+
+}
+.stats {
+    padding-left: 10px;
+}

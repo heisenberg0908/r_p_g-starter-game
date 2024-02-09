@@ -1,0 +1,32 @@
+<!-- this the index.html of the "rpg" starter game-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RPG-Dragon-Repeller</title> <!--Here we are setting the title of the game ,ie the info which will be visible in the browser-->
+        <link rel="stylesheet" href="style.css"> <!--Here we are linking our html to the style.css area-->
+    </head>
+    <body>
+        <div id="game"> <!--Here we have created a parent div class to represent our game-->
+            <div id="stats"> <!--here we have created a sub div class for the stats-->
+                <span class="stats">XP<strong><span id="xpText">0</span></strong></span>
+                <span class="stats">Health<strong><span id="healthText">100</span></strong></span>
+                <span class="stats">Gold<strong><span id="goldText">50</span></strong></span>
+
+            </div>
+            <div id="controls"> <!--in this div class we have created the buttons and there inside text-->
+                <button id="button1">Go To store</button>
+                <button id="button2">Go To cave</button>
+                <button id="button3">Fight Dragon</button>
+            </div>
+            <div id="monsterstats">
+                <span class="stats">monsterName<strong><span id="monsterName"></span></strong></span>
+                <span class="stats">monsterHealth<strong><span id="monsterHealth"></span></strong></span>
+            </div>
+            <div id="text">Welcome to Dragon Repeller. You must defeat the dragon in order to win this game.
+                Where do u want to go. Use the respective buttons ..... <!--this div class has been created in order to show the
+                text which will be displayed to us while starting the game-->
+            </div>
+        </div>
+    </body>
+</html>
